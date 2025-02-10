@@ -1,0 +1,22 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite build && vite",
+    "build": "vite build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "alpinejs": "^3.14.8",
+    "htmx.org": "^1.9.12"
+  },
+  "devDependencies": {
+    "@unocss/preset-uno": "^65.4.3",
+    "unocss": "^65.4.3",
+    "vite": "^6.1.0"
+  }
+}

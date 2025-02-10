@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/cryptrunner49/gofeed/internal/auth"
-	"github.com/cryptrunner49/gofeed/internal/database"
+	"github.com/cryptrunner49/gofeed/sql/auth"
+	"github.com/cryptrunner49/gofeed/sql/database"
 )
 
 type authedHandler func(http.ResponseWriter, *http.Request, database.User)

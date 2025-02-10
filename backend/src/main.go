@@ -7,7 +7,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/cryptrunner49/gofeed/internal/database"
+	"github.com/cryptrunner49/gofeed/sql/database"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/cors"
 	"github.com/joho/godotenv"

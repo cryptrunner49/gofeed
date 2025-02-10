@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/cryptrunner49/gofeed/internal/database"
+	"github.com/cryptrunner49/gofeed/sql/database"
 	"github.com/go-chi/chi/v5"
 	"github.com/google/uuid"
 )

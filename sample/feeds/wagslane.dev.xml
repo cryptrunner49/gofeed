@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lane&#39;s Blog</title>
+    <title>Lane's Blog</title>
     <link>https://wagslane.dev/</link>
-    <description>Recent content on Lane&#39;s Blog</description>
+    <description>Recent content on Lane's Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://wagslane.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://wagslane.dev/index.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>The Zen of Proverbs</title>
       <link>https://wagslane.dev/posts/zen-of-proverbs/</link>
@@ -29,7 +29,7 @@ What is a solution in search of a problem?</description>
     </item>
     
     <item>
-      <title>Thoughts on the &#34;Guard&#34; Proposal for Go&#39;s Error Handling</title>
+      <title>Thoughts on the "Guard" Proposal for Go's Error Handling</title>
       <link>https://wagslane.dev/posts/guard-keyword-error-handling-golang/</link>
       <pubDate>Sat, 05 Nov 2022 00:00:00 +0000</pubDate>
       
@@ -49,7 +49,7 @@ Sometimes an idea is so good, that you can’t argue with it. I’m not saying t
     </item>
     
     <item>
-      <title>Learn to Say &#39;No&#39;</title>
+      <title>Learn to Say 'No'</title>
       <link>https://wagslane.dev/posts/developers-learn-to-say-no/</link>
       <pubDate>Mon, 27 Jun 2022 00:00:00 +0000</pubDate>
       
@@ -86,7 +86,7 @@ Let&amp;rsquo;s look at some example scenarios where perhaps you should be sayin
     </item>
     
     <item>
-      <title>Things I don&#39;t want to do to grow my side project</title>
+      <title>Things I don't want to do to grow my side project</title>
       <link>https://wagslane.dev/posts/things-i-dont-want-to-do-to-grow-business/</link>
       <pubDate>Sun, 01 May 2022 00:00:00 +0000</pubDate>
       
@@ -197,7 +197,7 @@ Speed up the appearance of progress Pay for twice the amount of people you need 
     </item>
     
     <item>
-      <title>A Case Against &#34;A Case for the Book of Mormon&#34;</title>
+      <title>A Case Against "A Case for the Book of Mormon"</title>
       <link>https://wagslane.dev/posts/a-case-against-a-case-for-the-book-of-mormon/</link>
       <pubDate>Sun, 25 Aug 2019 00:00:00 +0000</pubDate>
       

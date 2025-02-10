@@ -3,7 +3,7 @@ package main
 import (
 	"time"
 
-	"github.com/cryptrunner49/gofeed/internal/database"
+	"github.com/cryptrunner49/gofeed/sql/database"
 	"github.com/google/uuid"
 )
 

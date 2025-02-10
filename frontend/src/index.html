@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpine.js and htmx Project</title>
+</head>
+
+<body>
+    <h1 x-data="{ message: 'I ❤️ Alpine' }" x-text="message"></h1>
+    <div x-data="{ message: 'Hello, Alpine!' }">
+        <h1 x-text="message"></h1>
+    </div>
+    <script type="module" src="/app.js"></script>
+    <div x-data="{ count: 0 }">
+        <button x-on:click="count++">Increment</button>
+
+        <span x-text="count"></span>
+    </div>
+    <div x-data="{ open: false }">
+        <button @click="open = ! open">Toggle</button>
+
+        <div x-show="open" @click.outside="open = false">Contents...</div>
+    </div>
+
+    <div>
+        <button">Button</button>
+
+            <div>Contents...</div>
+    </div>
+
+    <div hx-post="/mouse_entered" hx-trigger="mouseenter">
+        [Here Mouse, Mouse!]
+    </div>
+
+    <div hx-on:htmx:after-swap="console.log('Content swapped')">
+        <!-- Content -->
+    </div>
+
+    <h1 class="text-3xl font-bold underline"> Hello world! </h1>
+
+
+    <!-- htmx example -->
+    <button hx-post="/clicked" hx-trigger="click" hx-target="#parent-div" hx-swap="outerHTML">
+        Click Me!
+    </button>
+    <a data-hx-post="/click">Click Me!</a>
+</body>
+
+</html>

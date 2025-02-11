@@ -1,3 +1,5 @@
+import './assets/main.scss'
+
 import htmx from 'htmx.org';
 import Alpine from 'alpinejs';
 

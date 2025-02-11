@@ -3,8 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "vite build && vite",
-    "build": "vite build"
+    "dev": "vite",
+    "build": "run-p type-check \"build-only {@}\" --",
+    "preview": "vite preview",
+    "test:unit": "vitest",
+    "build-only": "vite build",
+    "type-check": "vue-tsc --build",
+    "lint": "eslint . --fix",
+    "format": "prettier --write src/",
+    "build:scss": "sass src/styles/main.scss dist/styles/main.css",
+    "build:styles": "npm run build:scss"
   },
   "keywords": [],
   "author": "",
@@ -15,6 +23,7 @@
     "htmx.org": "^1.9.12"
   },
   "devDependencies": {
+    "sass": "^1.84.0",
     "vite": "^6.1.0"
   }
 }

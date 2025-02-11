@@ -1,0 +1,8 @@
+@use './base.scss';
+
+// src/styles/main.scss
+$primary-color: #3498db;
+
+body {
+  color: $primary-color;
+}

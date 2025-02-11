@@ -4,9 +4,9 @@ WORKDIR /app
 
 COPY . .
 
-RUN npm install -g bun
+RUN npm install -g pnpm
 
-RUN bun install
+RUN pnpm install
 
 EXPOSE 80
-CMD ["bun", "run", "dev", "--host", "0.0.0.0", "--port", "80"]
+CMD ["pnpm", "dev", "--host", "0.0.0.0", "--port", "80"]
